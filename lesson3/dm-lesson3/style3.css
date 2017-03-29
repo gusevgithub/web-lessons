@@ -1,0 +1,4 @@
+input:not([type="email"]) {
+  color: green;
+  border: 3px solid orange;
+}

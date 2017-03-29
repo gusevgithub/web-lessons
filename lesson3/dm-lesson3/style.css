@@ -1,0 +1,66 @@
+
+/* 1-е дом. задание урока 3 */
+blockquote {
+    width: 600px;
+}
+
+h1 {
+    text-align: right;
+    font-size: 30px;
+    color: orange;
+}
+
+blockquote p:first-letter {
+    color: red;
+    font-size: 30px;
+}
+
+blockquote p em {
+    background-color: green;
+    font-weight: bold;
+    color: #fff;
+}
+
+h2 {
+    font-size: 26px;
+    color: orange;
+}
+
+h2:nth-of-type(2) {
+    font-size: 26px;
+    color: blue;
+}
+
+ol {
+    color: gray;
+    font-weight: bold;
+}
+
+ol:nth-of-type(2) {
+    color: red;
+}
+
+ol.ol-green {
+    color: green;
+}
+
+table {
+  min-width: 400px;
+  text-align: center;
+  font-weight: bold;
+}
+
+td.name01 {
+  text-align: left;
+  font-weight: normal;
+  color: orange;
+  border-color: gray;
+}
+
+.name01 ~ td {
+  background-color: green;
+  color: #fff;
+}
+/* конец 1-го дом. задание урока 3 */
+
+

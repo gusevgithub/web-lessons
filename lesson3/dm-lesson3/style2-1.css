@@ -1,0 +1,8 @@
+article p:nth-of-type(1)
+{
+font-size: 150%;
+}
+article p:nth-of-type(3)
+{
+color:#999;
+}

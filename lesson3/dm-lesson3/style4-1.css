@@ -1,0 +1,19 @@
+a[href^="http"] /* ^ - начинаются с http */
+
+{
+	color: #f70;
+}
+a[href*="google"] /* * - все имеющие google */
+{
+	color:#666;
+}
+a[target="_blank"]:after
+{
+	content: '\21F1';
+	position: absolute;
+	padding-right: 15px;
+	margin-top: 5px;
+	font-size: 1.2em;
+	transform: rotate(-270deg);
+
+}

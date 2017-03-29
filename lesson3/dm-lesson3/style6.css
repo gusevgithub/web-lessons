@@ -1,0 +1,49 @@
+
+span.red{
+	background-color:red;border-radius:6px;color:white;margin-right:10px;
+}
+span.green{
+	background-color:green;border-radius:6px;color:white;margin-right:10px;
+}
+span.blue{
+	background-color:blue;border-radius:6px;color:white;margin-right:10px; 
+}
+label[for="red"]{
+	margin-right:20px;
+	color:red;
+}
+label[for="green"]{
+	margin-right:20px;
+	color:green;
+}
+label[for="blue"]{
+	margin-right:20px;
+	color:blue;
+}
+input[type="checkbox"]{
+	display:none;
+}
+input[type="checkbox"]#red:checked~label[for="red"]{
+	opacity: 0.5;
+}
+
+input[type="checkbox"]#green:checked~label[for="green"]{
+	opacity: 0.5;
+}
+
+input[type="checkbox"]#blue:checked~label[for="blue"]{
+	opacity: 0.5;
+}
+
+input[type="checkbox"]#red:checked ~ span.red
+{
+	display:none;
+}
+input[type="checkbox"]#green:checked ~ span.green
+{
+	display:none;
+}
+input[type="checkbox"]#blue:checked ~ span.blue
+{
+	display:none;
+}
